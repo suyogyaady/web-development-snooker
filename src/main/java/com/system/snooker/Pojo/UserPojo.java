@@ -1,12 +1,10 @@
 package com.system.snooker.Pojo;
 
-
 import com.system.snooker.entity.User;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-
 @Getter
 @Setter
 @AllArgsConstructor
@@ -19,9 +17,6 @@ public class UserPojo {
     private String password;
     private String name;
     private String address;
-
-
-
     public UserPojo(User user) {
         this.id = user.getId();
         this.email = user.getEmail();
